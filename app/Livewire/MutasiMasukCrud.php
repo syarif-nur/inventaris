@@ -13,7 +13,6 @@ class MutasiMasukCrud extends Component
 
     public $mutasiMasuk, $id_barang, $tanggal_masuk, $jumlah_masuk;
     public $isOpen = 0;
-    public $isOpenEdit = 0;
     public $counter = 1;
 
     public function render()
@@ -129,15 +128,6 @@ class MutasiMasukCrud extends Component
         $this->isOpen = false;
     }
 
-    public function openEditModal()
-    {
-        $this->isOpenEdit = true;
-    }
-
-    public function closeEditModal()
-    {
-        $this->isOpenEdit = false;
-    }
 
 
 }

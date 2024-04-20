@@ -15,7 +15,7 @@
             <ul style="list-style-type: none; padding: 0;">
                 <li><a href="{{ route('barangs') }}">Barang</a></li>
                 <li><a href="{{ route('mutasi-masuk') }}">Mutasi Masuk</a></li>
-                <li><a href="#">Mutasi Keluar</a></li>
+                <li><a href="{{ route('mutasi-keluar') }}">Mutasi Keluar</a></li>
                 <li><a href="#">Perpindahan Inventaris</a></li>
             </ul>
         </nav>

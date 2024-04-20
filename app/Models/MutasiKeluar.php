@@ -12,4 +12,10 @@ class MutasiKeluar extends Model
     protected $table = "mutasi_keluar";
     protected $fillable = ['id_barang', 'tanggal_keluar', 'jumlah_keluar', 'active'];
 
+    public function barang()
+    {
+        return $this->hasOne(Barang::class, 'id', 'id_barang');
+    }
+
+    
 }
